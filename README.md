@@ -71,15 +71,9 @@ Databricks, PySpark, XGBoost, LightGBM, CatBoost, Optuna, SHAP, LIME, DiCE, Boru
 
 ## Limitations and future work
 
-- Class balancing changes the default rate the model sees in training, so results should be re-checked on the natural (unbalanced) population before any real-world use.
 - Fairness analysis and out-of-time validation are needed before production deployment.
-- Decision thresholds should be kept consistent between validation, scoring and reporting.
-- Drift monitoring for the deployed model is a natural next step.
-
+  
 ## Note
 
-This repository documents the project. Code and data are not included because the work was done in an internship setting. The dataset used is the public AMEX Default Prediction dataset.
+This repository documents the project. The dataset used is the public AMEX Default Prediction dataset.
 
-## Author
-
-[Your Name] · [LinkedIn URL] · [Email]
